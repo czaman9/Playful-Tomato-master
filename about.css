@@ -1,0 +1,82 @@
+.navbar-default{
+	background-color:#404040;
+	border-color:transparent;
+}
+/*COLOR FOR acive IN THE NAV*/
+.navbar-default .navbar-nav  li a:focus{
+color: #fff;
+}
+/*COLOR FOR a IN THE NAV*/
+.navbar-default .navbar-nav  li a{
+color: #fff;
+}
+/*COLOR FOR HOVER IN THE NAV*/
+.navbar-default .navbar-nav  li a:hover{
+color:#fff;
+}
+
+
+.navbar-default .navbar-nav  li a:focus{
+outline:0;
+}
+.image{
+	background-image:url("image1.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+	height: 520px;
+    margin:0;
+}
+.products{
+    /*background-color: #28e03d;*/
+    background-color: #fafafa;
+    background-size:100%;
+    height: auto;
+    border-top: 1px solid #e0e0e0;
+}
+.row{
+    padding:0px;
+    border:0px;
+}
+.product-images{
+    background-color:grey;
+    height:170px;
+    width: 326px;
+    background-size:100%;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.whitebg{
+    position: relative;
+    border-top: 1px solid #e0e0e0;
+    background-color: white;
+    height: 70px;
+    background-size: 100;
+}
+
+.whitesecondbg{
+        position: relative;
+    border-top: 1px solid #e0e0e0;
+    background-color: white;
+    height: 350px;
+    background-size: 100;
+}
+.footer{
+    background-color:#474747;
+    height:128px;
+}
+hr{
+    width:70%;
+    align:center;
+    margin-top: 60px;
+    padding:0;
+    margin-bottom: 0;
+    border-color:red;
+}
+
+.navbar-brand img{
+    background-size:100%;
+    height: 25px;
+    width: 100px;
+}
+
